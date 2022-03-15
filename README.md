@@ -1,37 +1,121 @@
-## Welcome to GitHub Pages
+index.html
 
-You can use the [editor on GitHub](https://github.com/GabriellyRaissa/meu-projeto/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<html>
+	<head>
+		<title>Starbucks Coffe</title>
+		<link href="css/style.css" rel="stylesheet"/>
+		<meta nome="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<div class="center">
+				<div class="logo"><img src="istockphoto.png" /></div><!--logo-->
+				<div class="menu">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Menu</a>
+					<a href="#">What's New</a>
+				</div><!--menu-->
+			</div><!--center-->
+		</header>
+        <section class="sobre">
+            <div class="extras">
+                 
+            </div><!--extras-->
+        </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <div class="texto-sobre">
+            <h1>Olá</h1>
+            <h2>Olá<br/>seja bem vindo ao meu novo site <span style="color: rgb(255, 4, 150)">Me chamo Gabrielly</span></h2>
+            <p>Olá seja bem vindo ao meu novo site, me chamo Gabrielly.</p>
+            <buttom>Saiba Mais</buttom>
+        </div>
+	</body>
+</html>
 
-### Markdown
+style.css
+{
+   margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.center{
+    display:flex;
+    flex-wrap:wrap;
+    max-width:1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
 
-```markdown
-Syntax highlighted code block
+html.body{
+    height:50%;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
 
-# Header 1
-## Header 2
-### Header 3
+header{
+    height:200px;
+    padding:20px 0;
+}
 
-- Bulleted
-- List
+.logo{
+    width:50%;
+}
 
-1. Numbered
-2. List
+.menu{
+    padding-top:30px;
+    width:50%;
+    text-align: right;
+}
 
-**Bold** and _Italic_ and `Code` text
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
 
-[Link](url) and ![Image](src)
-```
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+.extras{
+    position:absolute;
+    bottom:-150px;
+    right:-300px;
+    width:800px;
+    height:600px;
+    border-radius:50%;
+    background-color: rgb(255, 0, 119);
+    
+}
 
-### Jekyll Themes
+.texto-sobre{
+    margin-top: 100px;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GabriellyRaissa/meu-projeto/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+.texto-sobre h1{
+    font-size: 50px; 
+}
 
-### Support or Contact
+.texto-sobre p{
+    margin:20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+.texto-sobre button{
+    border:0;
+    background-color:rgb(253, 86, 189);
+    color: white;
+    border-radius: 10px;
+    width:80px;
+    height:30px;
+    cursor:pointer;
+    
+}
