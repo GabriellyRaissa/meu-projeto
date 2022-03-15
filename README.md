@@ -25,9 +25,7 @@ index.html
         </section>
 
         <div class="texto-sobre">
-            <h1>Olá</h1>
-            <h2>Olá<br/>seja bem vindo ao meu novo site <span style="color: rgb(255, 4, 150)">Me chamo Gabrielly</span></h2>
-            <p>Olá seja bem vindo ao meu novo site, me chamo Gabrielly.</p>
+            <h1>Olá<br/>seja bem vindo ao meu novo site <span style="color: rgb(255, 4, 150)">Me chamo Gabrielly</span></h1>
             <buttom>Saiba Mais</buttom>
         </div>
 	</body>
